@@ -1,0 +1,66 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background-color: #f7f9fc;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.task:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+.task-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.priority {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.priority-high {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.priority-medium {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.priority-low {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px; /* Creates space between buttons */
+}
+
+.task-actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-actions button:hover {
+  background-color: #0056b3;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
