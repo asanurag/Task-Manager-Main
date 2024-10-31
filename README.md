@@ -55,13 +55,18 @@ Snapshots:   0 total
 Time:        6.763 s, estimated 9 s
 Ran all test suites.
 
-Acknowledgments
+Acknowledgments -
+
 This application was built using resources and libraries from:
 
 React and React Router
+
 Redux and Redux Toolkit
+
 Express and Node.js
+
 MongoDB Atlas
+
 Jest for testing
 
 
