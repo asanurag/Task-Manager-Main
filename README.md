@@ -1,5 +1,5 @@
 Task Manager
-Task Manager is a full-stack application built with a React frontend and a Node.js/Express backend, using Redux for state management and MongoDB for data storage. This application allows users to create, edit, delete, and manage tasks with various features to enhance productivity. Users can filter tasks based on their status and sort them by priority or due date.
+Task Manager is a full-stack application built with a React frontend and a Node.js/Express backend, using Redux for state management and MongoDB for data storage. This application allows users to create, edit, delete, and manage tasks with various features to enhance productivity. Users can filter tasks based on status and sort them by priority or due date.
 
 Features
 Add Tasks: Create new tasks with details like title, description, priority, and due date.
@@ -54,6 +54,13 @@ Snapshots:   0 total
 Time:        6.763 s, estimated 9 s
 Ran all test suites.
 
+Acknowledgments
+This application was built using resources and libraries from:
 
+React and React Router
+Redux and Redux Toolkit
+Express and Node.js
+MongoDB Atlas
+Jest for testing
 
 
